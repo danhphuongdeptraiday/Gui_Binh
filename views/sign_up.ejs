@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <%- include('includes/head.ejs') %>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/sign_up.css" />
+  </head>
+  <body>
+    <form action="/signup" method="post">
+      <h2>Sign Up</h2>
+      <label for="fullname">Full Name:</label>
+      <input type="text" id="fullname" name="fullname" required /><br />
+      <label for="email">Desirable Email Address:</label>
+      <input type="email" id="email" name="email" required /><br />
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required /><br />
+      <label for="repassword">Re-enter Password:</label>
+      <input type="password" id="repassword" name="repassword" required /><br />
+      <input type="submit" value="Sign Up" />
+    </form>
+  </body>
+</html>

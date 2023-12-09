@@ -1,0 +1,32 @@
+.email {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 100px auto;
+  width: 800px;
+  font-family: Arial, sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.email-header {
+  margin-bottom: 10px;
+}
+
+.email-header div {
+  margin-bottom: 20px;
+}
+
+.subject,
+.sender-id,
+.recipient-id,
+.sent-at {
+  margin: 5px 0;
+}
+
+.email-body {
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+
+.body-text {
+  margin: 0;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Detail</title>
+    <%- include('includes/head.ejs') %>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/email_detail.css" />
+  </head>
+  <body>
+    <%- include('includes/header.ejs') %>
+
+    <div class="email">
+      <div class="email-header">
+        <div class="subject" style="text-align: center">
+          <h3>Subject: Lorem ipsum dolor sit amet</h3>
+        </div>
+        <div class="sender-id">
+          <h3>From:</h3>
+          sender@example.com
+        </div>
+        <div class="recipient-id">
+          <h3>To:</h3>
+          recipient@example.com
+        </div>
+        <div class="sent-at">
+          <h3>Sent At:</h3>
+          January 1, 2023 10:00 AM
+        </div>
+      </div>
+      <div class="email-body">
+        <p class="body-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula
+          libero at libero dapibus, ut vehicula turpis convallis. Nulla
+          facilisi. Phasellus eleifend ultricies mauris.
+          <br />
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula
+          libero at libero dapibus, ut vehicula turpis convallis. Nulla
+          facilisi. Phasellus eleifend ultricies mauris.
+          <br />
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula
+          libero at libero dapibus, ut vehicula turpis convallis. Nulla
+          facilisi. Phasellus eleifend ultricies mauris.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
